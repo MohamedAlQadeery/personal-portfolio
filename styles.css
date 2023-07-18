@@ -1,7 +1,7 @@
 :root{
     --primary-color:#cb3931;
     --secondary-color:#f0f0f0;
-    --grey:#333;
+    --grey:#F1F1F1;
 }
 
 html{
@@ -18,3 +18,101 @@ body{
     font-family: 'Poppins', sans-serif;
     padding: 0 4%;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-text{
+    max-width: 30%;
+    color: var(--primary-color);
+    margin-bottom: 3em;
+    
+}
+
+.header-image{
+    padding-right: 8em;
+    
+}
+
+.showcase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+    background-color: var(--grey);
+    padding-top: 200px;
+    margin-top: -150px;
+    
+}
+
+.showcase-title{
+    max-width: 50%;
+    font-size: 5.5em;
+    line-height: 1.2;
+    font-weight: 500;
+   
+}
+.showcase-title-name{
+    font-size: 4.5em;
+    line-height: 1.2;
+    font-weight: 500;
+
+}
+
+
+.first-row{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 0;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+
+.contact-info{
+    max-width: 30%;
+    color: var(--primary-color);
+    
+}
+
+.showcase-subtitle{
+    max-width: 50%;
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 1em;
+    padding: 0 2.9em;
+    color: var(--primary-color);
+}
+.second-row{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;    
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+
+.social-media-icons{
+    margin: 2em;
+}
+
+
+.fab {
+   margin: 0 .5em;
+    
+    
+}
+
+
+
+
+
