@@ -1,0 +1,18 @@
+:root{
+    --primary-color:#cb3931;
+    --secondary-color:#f0f0f0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
