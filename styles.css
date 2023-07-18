@@ -1,6 +1,7 @@
 :root{
     --primary-color:#cb3931;
     --secondary-color:#f0f0f0;
+    --grey:#333;
 }
 
 html{
@@ -15,4 +16,5 @@ html{
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    padding: 0 4%;
 }
