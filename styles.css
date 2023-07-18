@@ -112,7 +112,38 @@ header{
     
 }
 
+.resume{
+    margin-top: 3em;
+    display: flex;
 
+    justify-content: space-between;
+    padding-bottom:3em ;
+    
+}
+
+.resume-item-title{
+    font-size: 2em;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 1em;
+    color: var(--primary-color);
+}
+
+.job-title{
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.company-name{
+    color: var(--primary-color);
+}
+
+
+.company-name::before{
+    content: '-';
+    margin: 0 .5em;
+    color: black;
+}
 
 
 
