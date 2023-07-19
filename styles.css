@@ -16,7 +16,7 @@ html{
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    padding: 0 4%;
+    padding: 0 5%;
 }
 
 header{
@@ -37,6 +37,15 @@ header{
     
 }
 
+.header-image img {
+  /* 500x400 and responsive */
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+
+
+}
+
 .showcase{
     display: flex;
     justify-content: space-between;
@@ -44,7 +53,7 @@ header{
     padding: 2em 0;
     background-color: var(--grey);
     padding-top: 200px;
-    margin-top: -150px;
+    margin-top: -170px;
     
 }
 
@@ -53,7 +62,7 @@ header{
     font-size: 5.5em;
     line-height: 1.2;
     font-weight: 500;
-   
+    width:40%;
 }
 .showcase-title-name{
     font-size: 4.5em;
@@ -62,11 +71,46 @@ header{
 
 }
 
+.first-row{
+    padding: 2em 0;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+}
+.first-row .name{
+padding-left: 3.4em;
+}
+.flex-name{
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    width: 100%;
+}
+
+.contact-info{
+    color: var(--primary-color);
+     width: 60%;
+     display: flex;
+     flex-direction: column;
+     font-weight: 500;
+
+}
+
+.showcase-subtitle{
+    max-width: 50%;
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 1em;
+    padding: 0 3em;
+    color: var(--primary-color);
+}
 
 .first-row{
     display: flex;
     flex-flow: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     padding: 2em 0;
     width: 100%;
@@ -146,4 +190,93 @@ header{
 }
 
 
+.social-media-icons a {
+    color:black;
+}
 
+@media only screen and (max-width: 768px) {
+   
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .header-text {
+      max-width: 100%;
+      margin-bottom: 2em;
+        text-align: center;
+    }
+    
+    .header-image {
+      padding: 0;
+    }
+    
+    .showcase {
+      padding-top: 100px;
+      margin-top: -70px;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .showcase-title {
+      max-width: 100%;
+      font-size: 4em;
+      width: 60%;
+    }
+    
+    .showcase-title-name {
+      font-size: 3em;
+    }
+    
+    .first-row {
+      flex-direction: column;
+      align-items: center;
+    }
+    .second-row{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .name {
+      padding-left: 0;
+      margin-bottom: 1em;
+    }
+    
+    .contact-info {
+      max-width: 100%;
+      width: 80%;
+      margin-bottom: 2em;
+    }
+    
+    .showcase-subtitle {
+      max-width: 100%;
+      font-size: 1.2em;
+      padding: 0 1em;
+    }
+    
+    .social-media-icons {
+      margin: 1em 0;
+      text-align: center;
+    }
+    
+    .resume {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .resume-item{
+        text-align: center;
+    }
+    
+    .resume-item-title {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+    
+    .company-name::before {
+      display: none;
+    }
+  }
